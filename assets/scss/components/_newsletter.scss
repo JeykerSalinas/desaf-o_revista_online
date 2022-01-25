@@ -1,0 +1,10 @@
+.newsletter{
+    background-color: $color-ruddy-pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    font-size: $fz-medium;
+}

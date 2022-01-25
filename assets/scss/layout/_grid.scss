@@ -1,0 +1,46 @@
+.navbar {
+  grid-area: navbar;
+}
+
+.content {
+
+  grid-area: content;
+  &__us {
+    display: none;
+  }
+  
+  @media (min-width : $ss-medium){
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 4fr 2fr;
+    &__cards{
+      grid-column: 1/2;
+    }
+    &__us{
+      display: block;
+      grid-column: 2/3;
+    }
+  }
+  
+}
+
+.newsletter {
+  grid-area: newsletter;
+}
+.footer {
+  grid-area: footer;
+}
+
+.container {
+  font-size: 1.5em;
+  min-height: 300px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 60px auto 200px 40px;
+  grid-template-areas:
+    "navbar"
+    "content"
+    "newsletter"
+    "footer";
+}
