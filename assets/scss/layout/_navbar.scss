@@ -1,0 +1,31 @@
+.navbar {
+  background-color: $color-raisin-black;
+  color: $color-white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  &__logo {
+    font-family: $ff-playfair;
+    font-size: $fz-x-large;
+  }
+  &__nav {
+    font-size: $fz-medium;
+    & ul {
+      display: flex;
+      & li {
+        padding: 10px;
+        color: cornsilk;
+        & a {
+          color: $color-white;
+        }
+      }
+    }
+  }
+  &__nav :not(:last-child) {
+    display: none;
+    @media (min-width: $ss-small) {
+      display: block;
+    }
+  }
+}

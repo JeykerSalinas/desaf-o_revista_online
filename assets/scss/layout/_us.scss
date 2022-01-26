@@ -1,0 +1,23 @@
+.us {
+  font-size: $fz-medium;
+  padding: 20px;
+  background-color: $color-ligth-grey;
+
+  &__header,
+  &__tags,
+  &__highlights {
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid;
+  }
+
+  &__tags {
+    & ul {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      margin: 5px;
+    }
+  }
+
+  
+}

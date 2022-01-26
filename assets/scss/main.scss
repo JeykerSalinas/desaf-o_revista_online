@@ -13,15 +13,18 @@
 @import "base/typography";
 
 // // Components
-@import "components/navbar";
-@import "components/cards";
-@import "components/newsletter";
-@import "components/us";
-@import "components/footer";
+@import "components/tag";
+@import "components/highlight-item";
+
 
 
 // // Layout
 @import "layout/grid";
+@import "layout/navbar";
+@import "layout/cards";
+@import "layout/newsletter";
+@import "layout/us";
+@import "layout/footer";
 // @import "layout/footer";
 // @import "layout/navbar";
 // @import "layout/hero";

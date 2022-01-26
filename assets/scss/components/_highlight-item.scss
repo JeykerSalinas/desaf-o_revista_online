@@ -1,0 +1,13 @@
+.highlight-item{
+    font-size: $fz-large;
+    padding-top: 10px;
+    margin-top: 10px;
+    border: 1px solid $color-raisin-black;
+    & h4{
+        padding-bottom: 10px;
+        margin-left: 10px;
+    }
+    & img{
+        width: 100%;
+    }
+}

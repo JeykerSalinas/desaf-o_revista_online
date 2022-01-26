@@ -12,13 +12,11 @@
   &__cards{
     @media (min-width : $ss-medium) {
       display: grid;
-      background-color: brown;
       grid-template-columns: repeat(2,1fr);
       
     }
     @media (min-width : $ss-x-large) {
       display: grid;
-      background-color: brown;
       grid-template-columns: repeat(3,1fr);
     }
   }
